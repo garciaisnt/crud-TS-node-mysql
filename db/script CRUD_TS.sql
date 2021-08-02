@@ -1,0 +1,10 @@
+
+
+usuariosCREATE TABLE Usuarios(
+id serial PRIMARY KEY,
+nombre VARCHAR(250) NOT NULL,
+email VARCHAR(100) NOT NULL UNIQUE,
+estado BOOLEAN NOT NULL DEFAULT 1,
+createdAt TIMESTAMP,
+updatedAt TIMESTAMP
+);
