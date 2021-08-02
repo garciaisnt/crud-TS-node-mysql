@@ -4,7 +4,7 @@ import { Sequelize } from 'sequelize';
 
 const db = new Sequelize('crudts', 'root', '', {
   host: 'localhost',
-  dialect: 'mysql',
+  dialect: 'mariadb',
   logging: true
 });
 
